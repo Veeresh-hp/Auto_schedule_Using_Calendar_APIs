@@ -11,17 +11,7 @@ A production-grade AI agent that auto-schedules meetings using Google Calendar A
 
 ## Architecture
 
-```mermaid
-graph TD
-    User[User] -->|Text Input| UI[Streamlit UI]
-    UI -->|Natural Language| Agent[LangChain Agent]
-    Agent -->|Tools| Tools[Tool Set]
-    Tools -->|API| GCal[Google Calendar API]
-    Tools -->|SQL| DB[Database (SQLite/Supabase)]
-    GCal -->|Events| Agent
-    DB -->|Logs| Agent
-    Agent -->|Response| UI
-```
+![Architecture Diagram](Architecture.png)
 
 ## Setup
 
