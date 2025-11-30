@@ -9,6 +9,14 @@ A production-grade AI agent that auto-schedules meetings using Google Calendar A
 - Database logging (Supabase/Sheets/SQLite).
 - Streamlit User Interface.
 
+## Demo
+
+Here is a video demonstration of the Meeting Scheduler Agent in action:
+
+https://github.com/Veeresh-hp/Auto_schedule_Using_Calendar_APIs/assets/demo.mp4
+
+[Watch the Demo Video](demo.mp4)
+
 ## Architecture
 
 ![Architecture Diagram](Architecture.png)
