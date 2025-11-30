@@ -1,6 +1,6 @@
 import os
 from dotenv import load_dotenv
-from langchain.agents.agent import AgentExecutor
+from langchain.agents import AgentExecutor
 from langchain.agents import create_tool_calling_agent
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
