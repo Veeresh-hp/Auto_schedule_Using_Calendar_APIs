@@ -1,0 +1,12 @@
+google-auth
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
+google-api-python-client
+
+langchain-community
+langchain-openai
+langchain-google-genai
+python-dotenv
+streamlit
+supabase
